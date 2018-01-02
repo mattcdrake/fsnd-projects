@@ -7,10 +7,18 @@
         - Playing youtube vid
     - Repeats 3 times
 
-```import webbrowser```
+`import webbrowser`
 
-Open a web browser in python using ```webbrowser.open("_website_")```
+Open a web browser in python using `webbrowser.open("_website_")`
 
 Python standard library includes modules (like webbrowser, time, etc.) with functions that you can use just by reading documentation
+
+### Classes
+
+ex) with `turtle` - there is a `Turtle` class inside of the `turtle` python module
+function `__init__` inside class Turtle is the constructor
+
+- Class: blueprint
+- Instance/Object: an object created from the class 
 
 
