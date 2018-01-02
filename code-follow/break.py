@@ -1,10 +1,11 @@
 import webbrowser
 import time
 
-i = 0
+curr_breaks = 0
+total_breaks = 3
 
-while (i < 3):
+while (curr_breaks < total_breaks):
     time.sleep(7200)
     webbrowser.open("http://www.google.com")
-    i += 1
+    curr_breaks += 1
 

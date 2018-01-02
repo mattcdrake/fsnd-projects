@@ -7,8 +7,10 @@
         - Playing youtube vid
     - Repeats 3 times
 
-Open a web browser in python using ```webbrowser.open
+```import webbrowser```
 
-```python
+Open a web browser in python using ```webbrowser.open("_website_")```
 
-```
+Python standard library includes modules (like webbrowser, time, etc.) with functions that you can use just by reading documentation
+
+
