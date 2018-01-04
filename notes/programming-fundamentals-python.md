@@ -21,4 +21,20 @@ function `__init__` inside class Turtle is the constructor
 - Class: blueprint
 - Instance/Object: an object created from the class 
 
+`from` - for importing a specific variable, class or a function from a module
+
+`self` is always first argument to constructor, it represents the instance being created
+
+### File I/O
+
+`open(_file_)` is in python std lib but not a member of a package
+    - called "built in functions"
+    - returns an object of the file type
+
+```python
+import urllib.request
+
+python_site = urllib.request.urlopen('http://python.org')
+```
+
 
