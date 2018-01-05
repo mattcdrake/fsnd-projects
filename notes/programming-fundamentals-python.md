@@ -37,4 +37,15 @@ import urllib.request
 python_site = urllib.request.urlopen('http://python.org')
 ```
 
+### OOP
 
+- class variables
+    - in some instances, you need variables that can be shared among all instances of a given class
+    - defined in the class itself, not the constructor
+    - accessed by calling the class (ex. media.Movie.valid_ratings) and not an instance
+    - define constants in ALL CAPS
+    - `__doc__` contains documentation about a class. defined with triple quotes """example doc"""
+- inheritance
+    - subclasses inherit variables and methods from their parent class
+    - subclasses defined like `class Child(Parent):`
+    - method overriding - like usual
